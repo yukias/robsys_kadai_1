@@ -10,3 +10,5 @@ $ cd raspberry_pi_kernel_build_scripts
 $ sudo ./karnel_build_and_install_for_pi2_pi3.bash
 $ sudo reboot
 ```
+## デモ動画
+<https://youtu.be/Y-SjDVwOp6M>

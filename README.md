@@ -3,7 +3,6 @@
 ## 概要
 LEDを1で点灯，0で消灯する．
 ## デバイスドライバの作成
-・手順
 ```
 $ git clone https://github.com/ryuichiueda/raspberry_pi_kernel_build_scripts.git
 $ cd raspberry_pi_kernel_build_scripts

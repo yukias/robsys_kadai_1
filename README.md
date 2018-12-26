@@ -12,3 +12,16 @@ $ sudo reboot
 ```
 ## デモ動画
 <https://youtu.be/Y-SjDVwOp6M>
+
+## 使用方法
+```
+$ git clone https://github.com/yukias/robsys_kadai_1.git
+$ cd robsys_kadai_1
+$ make
+$ sudo insmod myled.ko
+$ sudo chmod 666 /dev/myled0
+```
+LEDを点灯させる．
+`$ echo 1 > /dev/myled0`
+LEDを消灯させる．
+`$ echo 1 > /dev/myled0`

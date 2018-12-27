@@ -25,8 +25,7 @@ static ssize_t led_write(struct file* filp, const char* buf, size_t conut, loff_
 		gpio_base[10] = 1 << 25;
 	else if (c == '1')
 		gpio_base[7] = 1 << 25;
-
-
+	
 	return 1;
 }
 
